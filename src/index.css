@@ -1,0 +1,264 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.subTextFont {
+	font-size: 17px;
+	font-weight:550;
+}
+
+.cardTitleFont {
+	font-size: 22px;
+}
+
+.overlay-button {
+    position:absolute;
+    width:100%;
+    border: 0px;
+    background-color: transparent;
+    height:10%;
+}
+
+.card-image{
+  height: 24vh;
+  width:100%;
+
+}
+.detail-image {
+    border: 1px solid Gainsboro;
+
+}
+
+.condition-type-font {
+    font-size:16px;
+}
+
+
+.related-item-card-width {
+width: 30%;
+}
+
+.item-title {
+   font-size:22px;
+}
+
+.price-font {
+    font-size:26px;
+}
+
+.price-title-font {
+    font-size:18px;
+}
+
+.seller-name {
+    font-size:16px;
+}
+
+.card-image:hover {
+    cursor: pointer;
+}
+
+.item-name{
+  font-size: 19px;
+  color:black;
+  height:5vh;
+  font-weight: 450;
+}
+
+.item-detail-name{
+  font-size: 19px;
+  color:black;
+  height:5vh;
+  font-weight: 480;
+}
+
+.seller-link{
+font-size:17px;
+font-weight:500;
+}
+
+.item-categories {
+    font-size: 17px;
+    font-weight: 350;
+    color:grey;
+}
+
+.item-quantity-detail {
+    font-size:17px;
+    font-weight:450;
+    color:black;
+}
+
+.more-details-font {
+    font-size: 21px;
+    font-weight:550;
+}
+
+.view-related-items-font {
+    font-size: 21px;
+    font-weight:500;
+}
+
+
+.see-all-home {
+    font-size:19px;
+    font-weight:400
+
+}
+
+.more-detail-items {
+    font-size: 15px;
+    font-weight:300;
+}
+
+.item-condition-detail {
+font-size:16px;
+font-weight:450;
+color:grey;
+
+}
+
+.item-detail-price {
+font-size: 18px;
+}
+
+.description-text {
+    font-size:14px;
+    font-weight:350;
+}
+
+
+.item-detail-shipping-cost {
+color: grey;
+font-size:14px;
+font-weight:450;
+}
+
+.shipping-cost{
+  font-size:14px;
+  font-weight: 500;
+  color:black;
+}
+
+.price-label-detail {
+
+
+}
+
+.preview-image-height{
+    width:25%;
+    height:15%;
+}
+.price-stars {
+  position: 'absolute';
+   left: '50%';
+   top: '80%';
+    transform: 'translate(-50%, -50%)'
+
+}
+
+.big-image-pick-size {
+    height:20vw;
+    width:23vw;
+
+}
+
+
+.delete-picture-button {
+    position:absolute;
+    height:10%;
+
+
+}
+.pick-image-size {
+    height: 28vh;
+    /*padding-top: 56.25%;*/
+}
+
+.condition-text {
+font-weight: 450;
+    font-size:16px;
+    color:grey;
+}
+
+.price-string{
+font-size:20px;
+color:black;
+}
+
+
+.seller-link {
+ text-decoration: underline;
+ color:grey;
+ font-size:16px;
+ font-weight:400;
+}
+
+.table-image-width {
+    width:80%
+}
+
+.card-item-title{
+ font-size:14px;
+ font-weight:450;
+ color:black;
+
+}
+
+.card-item-title:hover{
+    cursor: pointer;
+
+}
+
+.card-size {
+  height:auto;
+  width:100%;
+}
+
+.thick-upload-picture-border {
+    border: 2px solid #dee2e6;
+}
+
+.bookmark-icon:hover {
+    color: white;
+}
+
+.home-header.py-5.bg-image-full {
+    background-image: url('http://neusigrho.com/media/website/northeastern/school-photo.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.home-logo {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.home-card {
+    max-height: 450px;
+}
+
+.add-icon {
+    color: white;
+}
+
+.home-card-img.card-img-top {
+    width: 200px;
+    height: 200px;
+    align-self: center;
+}
+
+.item-bookmark {
+    padding-left: 5px;
+    padding-right: 5px;
+}

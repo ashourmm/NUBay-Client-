@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #09d3ac;
+}
+
+.wbdv-hamburger {
+  color: white;
+  padding-right: 1rem;
+}
+
+
+.floating-action-button {
+  background: none;
+  position: fixed;
+  bottom: 25px;
+  right: 20px;
+  border: none;
+  color: #007bff;
+  transition: all 0.2s ease;
+  outline: none;
+}
+
+.floating-action-button:hover {
+  transform: scale(1.2);
+  outline: none;
+}
+
+.floating-action-button:focus {
+  outline: none;
+}
+
+.format-buttons {
+  display: flex;
+  justify-content: flex-end;
+  height: 100%;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+.wbdv-grid-layout {
+  border-color: transparent;
+  background-color: transparent;
+  height: 100%;
+}
+
+.wbdv-list-layout {
+  border-color: transparent;
+  background-color: transparent;
+  height: 100%;
+}
+
+.header-icon {
+  color: black;
+}
+
+.wbdv-new-course-form {
+  flex-flow: unset;
+}
+
+.wbdv-delete {
+  border-color: transparent;
+  float: right;
+  color: black;
+}
+
+.wbdv-edit {
+  border: none;
+  float: right;
+}
+
+html {
+  height: 100%;
+}
+
+.avatar-circle {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  text-align: center;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+}
+
+.initials {
+  position: relative;
+  top: 25px; /* 25% of parent */
+  font-size: 50px; /* 50% of parent */
+  line-height: 50px; /* 50% of parent */
+  color: #fff;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+}
+
+.CenterSignIn {
+  margin-left: 27%;
+}
+
+.CenterRegister {
+  margin-left: 25%;
+}
+
+.CenterAddItem {
+  margin-left: 22%;
+}
+
+.CenterAddService {
+  margin-left: 16%;
+}
+
+#searchBar .dropdown-menu {
+  width: 400px;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.heading-1{
+  position:relative;
+  text-align: center
+}
+.heading-1:before {
+  content: "";
+  display: block;
+  border-top: solid 1px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  top: 50%;
+  z-index: 0;
+}
+.heading-1 span {
+  background: #fff;
+  padding: 0 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.Center {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -100px;
+}
+
+.thickBorderBottom {
+  border-bottom: 1.5px solid #dee2e6;
+}
+
