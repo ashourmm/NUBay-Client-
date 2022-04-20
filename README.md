@@ -2,7 +2,7 @@ CS4550: Web Development
 
 Project Title: NUBAY
 
-Authors: Mahmoud Ashour, and Ronit Sharma
+Authors: Mahmoud Ashour, and Matthew Walker
 
 ### Landing Page
 <img width="1440" alt="Screen Shot 2021-03-08 at 11 06 05 AM" src="https://user-images.githubusercontent.com/20268204/110348277-7ae2bd00-7fff-11eb-8f2a-e66777821edd.png">
