@@ -1,7 +1,6 @@
 import React from 'react'
 import ListingRow from "./ListingRow";
 import NuBayService from "../services/NuBayService";
-
 export default class BookmarkDetails extends React.Component {
     constructor(props) {
         super(props)
